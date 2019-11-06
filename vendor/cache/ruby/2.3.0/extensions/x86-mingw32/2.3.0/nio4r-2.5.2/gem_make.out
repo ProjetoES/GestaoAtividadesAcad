@@ -1,0 +1,14 @@
+current directory: C:/Users/Iris Viana/GestaoAtividadesAcad/vendor/cache/ruby/2.3.0/gems/nio4r-2.5.2/ext/nio4r
+C:/RailsInstaller/Ruby2.3.3/bin/ruby.exe -I C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0 -r ./siteconf20191104-15008-opjekc.rb extconf.rb
+
+current directory: C:/Users/Iris Viana/GestaoAtividadesAcad/vendor/cache/ruby/2.3.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: C:/Users/Iris Viana/GestaoAtividadesAcad/vendor/cache/ruby/2.3.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: C:/Users/Iris Viana/GestaoAtividadesAcad/vendor/cache/ruby/2.3.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" install
+make: Nothing to be done for `install'.
