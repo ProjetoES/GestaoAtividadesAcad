@@ -33,6 +33,8 @@ class AtividadesController < ApplicationController
 >>>>>>> Criando e editando arquivos ao adicionar associacoes
     if @atividade.save
       redirect_to projeto_path(@projeto), {notice: 'Atividade was successfully created.' }
+    else
+      redirect_to projeto_path(@projeto),{notice: @atividade.errors}
     end
   end
 

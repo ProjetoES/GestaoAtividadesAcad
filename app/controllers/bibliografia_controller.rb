@@ -28,7 +28,10 @@ class BibliografiaController < ApplicationController
     @bibliografium =  @projeto.bibliografia.create(bibliografium_params)
     if @bibliografium .save
       redirect_to projeto_path(@projeto), {notice: 'Bibliografium was successfully created.' }
-    end
+
+    else
+      redirect_to projeto_path(@projeto),{notice:@bibliografium.errors}
+  end
   end
 
   # PATCH/PUT /bibliografia/1
